@@ -1,4 +1,4 @@
-# Horizen View INST377 (S23)
+# Horizen View INST377
 ## Overview
 The project was designed to display a simple-to-read interface that lets the user click through the astrological times of day. Specifically, the time of sunrise, sunset, noon, and when civil, nautical, and astronomical twilight begin and end. These times are for the specific location provided by the user in coordinates, as well as on the opposite side of the world from the input coordinates.
 
@@ -27,4 +27,4 @@ The project was designed to display a simple-to-read interface that lets the use
 ## Author
 Mabel Chang
 
-Developed as the final project for INST377: Dynamic Web Applications at the University of Maryland: College Park
+Developed as the final project for INST377: Dynamic Web Applications at the University of Maryland: College Park (S23)
