@@ -27,4 +27,4 @@ The project was designed to display a simple-to-read interface that lets the use
 ## Author
 Mabel Chang
 
-Developed as the final project for INST377: Dynamic Web Applications at the University of Maryland: College Park (S23)
+Developed as the final project for INST377: Dynamic Web Applications at the University of Maryland: College Park (S23), instructed by Professor Alex Leitch
