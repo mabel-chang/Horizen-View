@@ -33,25 +33,60 @@ h3 {
 /*BANNER*/
 .banner {
   position: fixed;
+    top: 0;
   background-color: transparent;
   width: 100%;
-  padding: 1px;
+  /*padding: 1px;*/
   display: flex;
   justify-content: space-between;
+
+  align-items: center;
+  padding: 10px 50px; /* adjust spacing */
+  z-index: 1000;
+}
+/* Left section: logo + title */
+.banner-left {
+  display: flex;
+  align-items: center;
+  gap: 15px; /* space between logo and title */
+}
+.logo {
+  height: 50px; /* adjust as needed */
+  width: auto;
 }
 /*Main Title*/
 .header {
-  text-indent: 50px;
+  /*text-indent: 50px;
   font-size: 100%;
+  font-weight: 200;
+  color: white;*/
+  font-size: 2.5rem;
   font-weight: 200;
   color: white;
 }
+/* Right section: divider + menu button */
+.banner-right {
+  display: flex;
+  align-items: center;
+  gap: 15px; /* space between divider and menu */
+}
+.divider {
+  width: 1px;
+  height: 30px;
+  background-color: white; /* thin white line */
+}
 /*Menu*/
 .menu {
-  padding: 10px 10px;
+  /*padding: 10px 10px;
   color: white;
   background-color: transparent;
-  padding-top: 50%;
+  padding-top: 50%;*/
+  color: white;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 400;
 }
 .menu:hover{
   background-color: #E7BC9A;
