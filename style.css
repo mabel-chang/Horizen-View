@@ -33,17 +33,16 @@ h3 {
 /*BANNER*/
 .banner {
   position: fixed;
-  background-color: #6A7C92;
+  background-color: transparent;
   width: 100%;
   padding: 1px;
-  opacity: 80%;
   display: flex;
   justify-content: space-between;
 }
 /*Main Title*/
 .header {
   text-indent: 50px;
-  font-size: 300%;
+  font-size: 100%;
   font-weight: 200;
   color: white;
 }
@@ -51,8 +50,7 @@ h3 {
 .menu {
   padding: 10px 10px;
   color: white;
-  background-color: #6A7C92;
-  border: #6A7C92;
+  background-color: transparent;
   padding-top: 50%;
 }
 .menu:hover{
