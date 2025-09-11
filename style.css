@@ -71,7 +71,8 @@ h3 {
 }
 .box {
   border-radius: 4px;
-  background-color: #6A7C92;
+  background-color: white;
+  opacity: 0.5;
   border-color: white;
   width: fit-content;
   height: fit-content;
@@ -87,7 +88,8 @@ h3 {
 }
 /*Long and Lat input*/
 .long_lat_input {
-  background-color: #6A7C92;
+  background-color: white;
+  opacity: 0.5;
   border-color: white;
   border-style: double;
   color: white;
@@ -125,10 +127,11 @@ h3 {
   padding: 14px 40px;
   border-radius: 12px;
   border-color: white;
-  background-color: #6A7C92;
+  background-color: white;
+  opacity: 0.5;
   color: white;
 }
 .button:hover {
-  background-color: #E7BC9A;
+  background-color: white;
   color: black;
 }
