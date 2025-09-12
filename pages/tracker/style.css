@@ -126,12 +126,14 @@ h3 {
 }
 /*labels*/
 .label{
-  display: inline-block;
-  margin-top: 15px;
+  display: block;
+  width: fit-content;
   background-color: white;
   opacity: 0.5;
-  margin: auto;
+  margin: 15px auto  0 auto;
   text-align: center;
+  padding: 10px 20px;
+  border-radius: 8px;
 }
 .label.main{
   background-color: transparent;
