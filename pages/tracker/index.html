@@ -50,6 +50,7 @@
     <!--MAIN BODY-->
     <div class="wrapper">
       <!--INPUT LOCATION-->
+      <div class="label" id="label1">label</div>
       <!--Tracker Info-->
       <div class="trackerContainer">
         <!--Input location Coordinates-->
@@ -66,16 +67,13 @@
 
         <!--Input location Clock-->
         <div>
-          <div class="label" id="label1">
-            label
-          </div>
           <div class="clock 1" id="inClock">
             <div id="inHour">__</div>
             :
             <div id="inMin">__</div>
             <div id="inAMPM">AM</div>
           </div>
-          <div class="label">Your Local Time</div>
+          <div class="label">User Time</div>
         </div>
       </div>
 
@@ -101,17 +99,16 @@
       <!--Tracker Info-->
       <div class="trackerContainer">
         <!--Ouput location Clock-->
+        <div class="main label">Opposite Side of Earth</div>
         <div>
-          <div class="label" id="label2">
-            label
-          </div>
+          <!--<div class="label" id="label2">label</div>-->
           <div class="clock 2" id="opClock">
             <div id="opHour">__</div>
             :
             <div id="opMin">__</div>
             <div id="opAMPM">AM</div>
           </div>
-          <div class="label">Your Local Time</div>
+          <div class="label">User Time</div>
         </div>
 
         <!--Opposite Location Coordinates-->
@@ -127,9 +124,6 @@
           </div>
         </div>
       </div>
-
-      <!--Bottom Banner-->
-      <div class="main label">Opposite Side of Earth</div>
     </div>
 
     <script src="./script.js"></script>
