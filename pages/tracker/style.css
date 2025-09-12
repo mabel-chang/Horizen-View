@@ -130,17 +130,14 @@ h3 {
   background-color: white;
   opacity: 0.5;
   margin: auto;
-  border: white;
-  border-style: double;
   text-align: center;
 }
 .label.main{
   background-color: transparent;
-  width: 100%;
   height: fit-content;
   padding-top: 10px;
   padding: 1px;
-  font-weight: 200%;
+  font-weight: 400%;
   font-size: 50px;
   color: white;
 }
@@ -148,7 +145,11 @@ h3 {
 /*CENTER*/
 .button img{
   height: 50px;
-  background-color: transparent;
+  background-color: white;
+  opacity: 0.5;
+  border-radius: 50%;              /* makes it a circle */
+  display: inline-block;
+  object-fit: cover; 
 }
 /*Layering Elements*/
 .parent{
@@ -165,6 +166,7 @@ h3 {
 }
 /*Map*/
 #map{
+  opacity: 1;
   width: 75%;
   height: 70%;
 }
