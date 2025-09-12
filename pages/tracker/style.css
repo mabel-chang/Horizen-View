@@ -127,11 +127,11 @@ h3 {
 /*labels*/
 .label{
   margin-top: 15px;
-  background-color: hsl(217, 55%, 82%);
+  background-color: white;
+  opacity: 0.5;
   margin: auto;
   border: white;
   border-style: double;
-  width: 25%;
   text-align: center;
 }
 .label.main{
