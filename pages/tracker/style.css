@@ -95,9 +95,10 @@ h3 {
   font-size: 25px; 
 }
 .box {
-  border-radius: 4px;
-  background-color: hsl(217, 55%, 82%);
+  border-radius: 8px;
+  background-color: white;
   border: white;
+  opacity: 0.5;
   border-style: double;
   width: 250px;
   height: fit-content;
@@ -134,11 +135,10 @@ h3 {
   text-align: center;
 }
 .label.main{
-  background-color:  hsl(216, 42%, 77%);
+  background-color: transparent;
   width: 100%;
   height: fit-content;
   padding-top: 10px;
-  opacity: 60%;
   padding: 1px;
   font-weight: 200%;
   font-size: 50px;
