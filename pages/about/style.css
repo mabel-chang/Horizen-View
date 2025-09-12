@@ -81,9 +81,10 @@ h2,h3 {
   margin: 0 auto;
   margin-bottom: 50px;
   border-radius: 4px;
-  background-color: black;
+  background-color: white;
+  opacity: 0.6;
   border-color: white;
-  color: white;
+  color: black;
 }
 
 /*TEXT*/
@@ -105,11 +106,11 @@ h2,h3 {
   text-align: center;
 }
 .paragraph a {
-  color:hsl(216, 42%, 77%);
+  color: blue;
   text-decoration: underline;
 }
 .paragraph a:hover{
   color:black;
-  background-color: hsl(216, 42%, 77%);
+  background-color: blue;
   text-decoration: none;
 }
