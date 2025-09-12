@@ -126,6 +126,7 @@ h3 {
 }
 /*labels*/
 .label{
+  display: inline-block;
   margin-top: 15px;
   background-color: white;
   opacity: 0.5;
@@ -139,7 +140,7 @@ h3 {
   padding: 1px;
   font-weight: 400%;
   font-size: 50px;
-  color: white;
+  color: black;
 }
 
 /*CENTER*/
