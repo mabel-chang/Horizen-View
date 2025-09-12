@@ -33,7 +33,7 @@ h3 {
 /*BANNER*/
 .banner {
   top: 0;
-  background-color: #FED5A1;
+  background-color: #6A7C92;
   width: 100%;
   /*padding: 1px;*/
   display: flex;
@@ -82,7 +82,7 @@ h3 {
 }
 .menu:hover{
   background-color: transparent;
-  color: #6A7C92;
+  color: #FED5A1;
 }
 
 /*MAIN BODY*/
@@ -148,7 +148,7 @@ h3 {
 /*CENTER*/
 .button img{
   height: 50px;
-  background-color: #D0C9D1;
+  background-color: transparent;
 }
 /*Layering Elements*/
 .parent{
