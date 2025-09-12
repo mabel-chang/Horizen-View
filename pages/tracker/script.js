@@ -83,7 +83,7 @@ function moveThrough(inList, op_list, count) {
   document.getElementById("opAMPM").innerHTML = op_spec_times.amPm; //changing text in clock
 
   document.getElementById("label1").innerHTML = labelList[count]; //changing text in label
-  document.getElementById("label2").innerHTML = labelList[count]; //changing text in label
+  //document.getElementById("label2").innerHTML = labelList[count]; //changing text in label
 }
 //Decrease count
 function prevSlide(count) {
