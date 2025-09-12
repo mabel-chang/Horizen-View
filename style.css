@@ -121,7 +121,8 @@ h3 {
   margin: 1rem;
   align-items: center;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  gap: 10px;
   justify-content: flex-start;
 }
 /*Map*/
@@ -146,16 +147,15 @@ h3 {
 }
 /*Submission Button*/
 .button {
-  font-family: "Courier New", monospace;
   font-size: 24px;
   padding: 14px 40px;
   border-radius: 12px;
-  border-color: white;
-  background-color: white;
+  border-color: #E7BC9A;
+  background-color: #E7BC9A;
   opacity: 0.5;
   color: white;
 }
 .button:hover {
   background-color: white;
-  color: black;
+  color: #E7BC9A;
 }
