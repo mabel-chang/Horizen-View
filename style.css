@@ -121,7 +121,7 @@ h3 {
   color: black;
   flex: 0 1 auto;
   margin: 1rem;
-  align-items: center;
+  align-items: left;
   display: flex;
   flex-direction: row;
   gap: 10px;
