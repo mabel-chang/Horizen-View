@@ -32,31 +32,57 @@ h3 {
 
 /*BANNER*/
 .banner {
-  position: fixed;
-  background-color: hsl(216, 42%, 77%);
+  top: 0;
+  background-color: #FED5A1;
   width: 100%;
-  opacity: 60%;
+  /*padding: 1px;*/
   display: flex;
-  padding: 1px;
-  justify-content: space-between;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 10px 50px;
+  z-index: 1000;
 }
-/*Title*/
+/* Left section: logo + title */
+.banner-left {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.logo {
+  height: 20px;
+  width: auto;
+}
+/*Main Title*/
 .header {
-  text-indent: 50px;
-  font-size: 200%;
-  font-weight: 200;
+  font-size: 1.5rem;
+  font-weight: 100;
   color: white;
+  gap: 15px;
+}
+/* Right section: divider + menu button */
+.banner-right {
+  display: flex;
+  align-items: center;
+  gap: 15px; /* space between divider and menu */
+}
+.divider {
+  width: 1px;
+  height: 30px;
+  margin-left: 15px;
+  background-color: white;
 }
 /*Menu*/
 .menu {
-  padding: 15px 10px;
   color: white;
-  background-color: hsl(216, 42%, 77%);
-  border: hsl(216, 42%, 77%);
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 200;
 }
 .menu:hover{
-  background-color: black;
-  color: white;
+  background-color: transparent;
+  color: #6A7C92;
 }
 
 /*MAIN BODY*/
